@@ -1,15 +1,16 @@
 {
-  "name": "taixiu-predict-api",
+  "name": "taixiu-vip-predict",
   "version": "1.0.0",
-  "description": "API poll vinhmaycay + predict Tài/Xỉu (heuristic)",
-  "main": "app.js",
+  "description": "Taixiu VIP predictor (Markov 1..10 + pattern analysis + ensemble)",
+  "main": "server.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
     "node-fetch": "^2.6.7",
-    "body-parser": "^1.20.2"
+    "body-parser": "^1.20.2",
+    "write-file-atomic": "^4.0.2"
   },
   "engines": {
     "node": ">=14"
